@@ -30,7 +30,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="the-quadratic-formula-and-the-values-of-discriminant-1024x655 1" translatesAutoresizingMaskIntoConstraints="NO" id="DLZ-NB-Dvi">
-                                <rect key="frame" x="90" y="303.66666666666669" width="250" height="125"/>
+                                <rect key="frame" x="90" y="293.66666666666669" width="250" height="125"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="Y8U-ul-mSW"/>
                                     <constraint firstAttribute="height" constant="125" id="gXo-Dp-wrp"/>
@@ -43,7 +43,7 @@
                             <constraint firstItem="GJ7-hZ-7lp" firstAttribute="centerX" secondItem="8la-b5-2Tf" secondAttribute="centerX" id="BPA-Hh-Knt"/>
                             <constraint firstItem="GJ7-hZ-7lp" firstAttribute="centerY" secondItem="8la-b5-2Tf" secondAttribute="centerY" id="C0V-07-v77"/>
                             <constraint firstItem="DLZ-NB-Dvi" firstAttribute="centerX" secondItem="8la-b5-2Tf" secondAttribute="centerX" id="WkL-Qz-2Ik"/>
-                            <constraint firstItem="GJ7-hZ-7lp" firstAttribute="top" secondItem="DLZ-NB-Dvi" secondAttribute="bottom" constant="20" id="uWK-qB-4Su"/>
+                            <constraint firstItem="GJ7-hZ-7lp" firstAttribute="top" secondItem="DLZ-NB-Dvi" secondAttribute="bottom" constant="30" id="uWK-qB-4Su"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Calculator" image="clipboard" catalog="system" id="SJw-ex-TEY"/>
@@ -215,7 +215,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AjI-wP-RXd">
                                         <rect key="frame" x="0.0" y="0.0" width="430" height="248.66666666666666"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="muY-hs-CJ8">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="muY-hs-CJ8">
                                                 <rect key="frame" x="150" y="59.333333333333343" width="130" height="130"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="130" id="5uI-d2-CvM"/>
@@ -254,7 +254,7 @@
                                         <rect key="frame" x="0.0" y="497.33333333333343" width="430" height="248.66666666666669"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="QWe-9i-zff">
-                                                <rect key="frame" x="160" y="36.333333333333258" width="110" height="176"/>
+                                                <rect key="frame" x="160" y="99.333333333333258" width="110" height="50"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZO-lf-4dI">
                                                         <rect key="frame" x="0.0" y="0.0" width="110" height="50"/>
@@ -266,30 +266,6 @@
                                                         <buttonConfiguration key="configuration" style="filled" title="Lab 2"/>
                                                         <connections>
                                                             <segue destination="ukv-Wu-jrC" kind="show" id="d6F-YI-axK"/>
-                                                        </connections>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n1I-nz-DBg">
-                                                        <rect key="frame" x="0.0" y="63" width="110" height="50"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="50" id="ynZ-r5-k2q"/>
-                                                        </constraints>
-                                                        <color key="tintColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.4823529412" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="Lab 3"/>
-                                                        <connections>
-                                                            <segue destination="AgU-t2-Hg3" kind="show" id="Mlj-mB-0Lu"/>
-                                                        </connections>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jqd-4W-fRA">
-                                                        <rect key="frame" x="0.0" y="126" width="110" height="50"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="50" id="1k8-2H-Etg"/>
-                                                        </constraints>
-                                                        <color key="tintColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.4823529412" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="Lab 4"/>
-                                                        <connections>
-                                                            <segue destination="tQO-2u-fJW" kind="show" id="pkZ-mQ-bgB"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -624,7 +600,22 @@
                             <constraint firstItem="cj6-da-pyC" firstAttribute="top" secondItem="gjz-3d-6s5" secondAttribute="bottom" constant="10" id="unM-SH-LcS"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Lab 3" id="nj6-9D-FOY"/>
+                    <navigationItem key="navigationItem" title="Lab 3" id="nj6-9D-FOY">
+                        <barButtonItem key="rightBarButtonItem" id="Zwk-Rj-Wlh">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="fcU-Hc-XIq">
+                                <rect key="frame" x="315" y="5" width="95" height="34.333333333333336"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Lab 4"/>
+                                <connections>
+                                    <segue destination="tQO-2u-fJW" kind="show" id="0HM-VQ-mnR"/>
+                                </connections>
+                            </button>
+                            <connections>
+                                <segue destination="tQO-2u-fJW" kind="show" id="TJM-Ho-N22"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="ageTextField" destination="3cw-nc-Q5k" id="obS-Pe-5aK"/>
                         <outlet property="countryTextField" destination="YKn-6Z-IWK" id="DJp-Ef-VBi"/>
@@ -636,7 +627,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hat-SD-Cvg" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2604" y="796"/>
+            <point key="canvasLocation" x="2604" y="900"/>
         </scene>
         <!--Lab 4-->
         <scene sceneID="h3u-qH-IVw">
@@ -713,7 +704,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lZ6-uh-74E" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2604" y="1467"/>
+            <point key="canvasLocation" x="2604" y="1612"/>
         </scene>
         <!--Lab 2-->
         <scene sceneID="dxA-eM-ch5">
@@ -866,7 +857,19 @@
                             <constraint firstItem="asu-xL-d6E" firstAttribute="trailing" secondItem="cE3-ij-7R5" secondAttribute="trailing" id="UDc-GK-wLP"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Lab 2" id="m4T-7f-TdE"/>
+                    <navigationItem key="navigationItem" title="Lab 2" id="m4T-7f-TdE">
+                        <barButtonItem key="rightBarButtonItem" id="7HH-kB-p6c">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="ql5-xS-Ayz">
+                                <rect key="frame" x="315" y="5" width="95" height="34.333333333333336"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Lab 3"/>
+                                <connections>
+                                    <segue destination="AgU-t2-Hg3" kind="show" id="gx5-eQ-3s9"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="displayLable" destination="hvU-lk-Ng9" id="2Kf-dv-UW8"/>
                     </connections>
@@ -876,6 +879,9 @@
             <point key="canvasLocation" x="2604" y="142"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="TJM-Ho-N22"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="applepencil" catalog="system" width="128" height="115"/>
         <image name="clipboard" catalog="system" width="103" height="128"/>

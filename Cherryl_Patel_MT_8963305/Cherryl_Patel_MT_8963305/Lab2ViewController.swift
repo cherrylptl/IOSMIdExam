@@ -16,7 +16,6 @@ class Lab2ViewController: UIViewController {
         super.viewDidLoad()
     
     }
-
     @IBOutlet weak var displayLable: UILabel!
     
     @IBAction func onTapMinusButton(_ sender: Any) {
